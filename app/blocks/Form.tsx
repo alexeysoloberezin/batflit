@@ -83,7 +83,7 @@ function FormModal() {
             )}
           </div>
           <div className="">
-            <FormMain/>
+            <FormMain aos={true}/>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ import useMediaQuery from "../hooks/useMediaQueary";
 import {toast} from "react-toastify";
 
 
-function FormMain({aos = true}: {aos: boolean}) {
+function FormMain({aos = true}: {aos?: boolean}) {
   const {t} = useTranslation();
 
   const [formData, setFormData] = useState({
