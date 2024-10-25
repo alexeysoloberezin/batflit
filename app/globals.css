@@ -1,0 +1,223 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --primary: #FFE973;
+    --gray: #2F2F2F;
+    --second: #FFC226;
+    --dark: #212121;
+}
+body{
+    background: #fff;
+    color: #212121;
+    font-optical-sizing: auto;
+    line-height: 1;
+    font-style: normal;
+    font-size: 16px;
+
+}
+.reviews_swiper .swiper-slide {
+    opacity: 0.6;
+    width: 760px;
+    transition: .5s ease;
+}
+.reviews_swiper .swiper-button-next,
+.reviews_swiper .swiper-button-prev{
+    width: 45px;
+    height: 45px;
+    background: var(--primary);
+    color: #fff;
+    border-radius: 50%;
+    @media (max-width: 1024px) {
+        width: 25px;
+        height: 25px;
+    }
+
+}
+.reviews_swiper .swiper-button-next:after,
+.reviews_swiper .swiper-button-prev:after{
+    font-size: 19px;
+    @media (max-width: 1024px) {
+        font-size: 14px;
+    }
+}
+.reviews_swiper .swiper-button-next{
+    right: -15px;
+}
+.reviews_swiper .swiper-button-prev{
+    left: -15px;
+}
+.reviews_swiper, .swiper-wrapper, .swiper{
+    overflow: visible !important;
+
+    @media (max-width: 660px) {
+    }
+}
+.reviews_swiper .swiper-slide.swiper-slide-active{
+    opacity: 1;
+}
+.main{
+    padding: 20px;
+    @media (max-width: 1024px) {
+        padding: 15px;
+    }
+}
+body,html{
+    max-width: 100vw;
+    width: 100%;
+    overflow-x: hidden;
+}
+.lh12{
+    line-height: 1.2;
+}
+html{
+}
+.app{
+    max-width: 100vw;
+    width: 100%;
+    overflow: hidden;
+}
+.input{
+    border-bottom: 1px solid #D9D9D9;
+    background: transparent;
+    height: 50px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 200;
+    width: 100%;
+    @media (max-width: 1024px) {
+        font-size: 15px;
+    }
+}
+.input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 17px;
+    @media (max-width: 1024px) {
+        font-size: 15px;
+    }
+
+}
+.reviews .swiper-button-next, .reviews .swiper-button-prev{
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 50%;
+}
+.reviews .swiper-button-next:after, .reviews .swiper-button-prev:after{
+    font-size: 11px;
+    transform: scaleY(0.8) translateY(1px);
+    color: #000;
+}
+.reviews .swiper-button-next{
+    margin-left: 190px;
+    @media (max-width: 1024px) {
+        margin-left: 170px;
+    }
+    @media (max-width: 400px) {
+        display: none !important;
+    }
+}
+.reviews .swiper-button-prev{
+    margin-left: -190px;
+    @media (max-width: 1024px) {
+        margin-left: -170px;
+    }
+    @media (max-width: 400px) {
+        display: none !important;
+    }
+}
+.heroBanner{
+    min-height: calc(100vh - 100px - 235px - 40px);
+}
+
+.heroBanner-wrp{
+    min-height: calc(100vh - 40px)
+}
+.whiteSection{
+    background: #212121;
+    border-radius: 27px;
+}
+.blackSection{
+    background: var(--dark);
+    color: #fff;
+    border-radius: 27px;
+}
+h2, .subtitle{
+    font-size: 30px;
+    font-weight: 600;
+    @media (max-width: 1024px) {
+        font-size: 20px;
+    }
+}
+
+.burger-btn {
+    width: 74px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    display: none;
+    border-radius: 50%;
+    transform: scale(0.75);
+
+    /* Показываем бургер на экранах меньше 1280px */
+    @media (max-width: 1280px) {
+        display: block;
+    }
+}
+
+.burger span {
+    position: absolute;
+    left: 50%;
+    width: 80%;
+    display: block;
+    border-radius: 10px;
+    background: #fff; /* Используй переменную для цвета */
+    height: 4px;
+    transform: translateX(-50%);
+    transition: 0.3s;
+}
+
+.burger span:nth-child(1) {
+    top: 50%;
+    margin-top: -11px;
+}
+
+.burger span:nth-child(2) {
+    top: 50%;
+    transform-origin: center;
+}
+
+.burger span:nth-child(3) {
+    top: 50%;
+    margin-top: 11px;
+}
+.burger.active{
+    /*border: 1px solid var(--primary);*/
+}
+.burger.active span:nth-child(1) {
+    transform: rotate(44deg) translate(-50%, 31px);
+    margin-left: 16px;
+}
+
+.burger.active span:nth-child(2) {
+    transform: scale(0);
+}
+
+.burger.active span:nth-child(3) {
+    transform: rotate(-44deg) translate(-47%, -33px);
+    margin-left: 16px;
+}
+
+
+

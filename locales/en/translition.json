@@ -1,0 +1,344 @@
+{
+  "nav": {
+    "link_1": "About Us",
+    "link_2": "About Franchise",
+    "link_3": "Free Installation",
+    "link_4": "Contacts",
+    "link_5": "Prices",
+    "link_6": "App",
+    "link_7": "Reviews"
+  },
+
+  "home": {
+    "title": "Earn on Hourly Powerbank Rental",
+    "subtitle": "Franchise Fee - 0₽",
+    "card_1": "Remote Business Management",
+    "card_2": "Warranty Certificate",
+    "card_3": "Technical Support",
+    "t1": "Choose the number of stations",
+    "t2": "Calculate",
+    "t2_a": "income",
+    "calc_ps": "Leave a request and get a free consultation from a <1>battflit</1> specialist",
+    "t2_b": "in your city"
+  },
+  "s": {
+    "title": "What is powerbank rental?",
+    "text_1": "<1>The user realized</1> that they urgently need to charge their device",
+    "text_2": "<1>The user charges</1> their device using a <1>POWER BANK</1> and can move freely around the city.",
+    "text_3": "<1>Return the POWER BANK</1> anywhere in the city where there's a return point.",
+    "text_4": "<1>Returning the POWER BANK</1> allows the user to get their deposit back, minus the usage fee."
+  },
+  "reviews": {
+    "title": "Reviews",
+    "button": "Submit a Request",
+    "subtitle": "Partner Reviews About Working With Us",
+    "items": [
+      {
+        "name": "Anton",
+        "subtitle": "12 stations",
+        "text": "The set includes the corresponding number of power banks.",
+        "phone": "+79120381222"
+      },
+      {
+        "name": "Anton",
+        "subtitle": "12 stations",
+        "text": "The set includes the corresponding number of power banks.",
+        "phone": "+79120381222"
+      },
+      {
+        "name": "Anton",
+        "subtitle": "12 stations",
+        "text": "The set includes the corresponding number of power banks.",
+        "phone": "+79120381222"
+      },
+      {
+        "name": "Anton",
+        "subtitle": "12 stations",
+        "text": "The set includes the corresponding number of power banks.",
+        "phone": "+79120381222"
+      }
+    ]
+
+  },
+  "s2": {
+    "title": "Our Advantages",
+    "items": [
+      {
+        "title": "New and Promising Niche",
+        "text": "User base grows by 10-20% monthly."
+      },
+      {
+        "title": "Master Franchise",
+        "text": "Opportunity to buy a master franchise. Manage a city, region, or country!"
+      },
+      {
+        "title": "Simple Management",
+        "text": "Install the station in a busy place. One person can maintain up to 100 terminals."
+      },
+      {
+        "title": "Passive Income",
+        "text": "Active phase lasts 1-3 weeks, control and analysis are done remotely via an app. Break-even point is in the 6th month."
+      },
+      {
+        "title": "No Expenses",
+        "text": "All battflit terminals are installed rent-free, unlike vending machines."
+      },
+      {
+        "title": "Quick Launch",
+        "text": "Equipment delivery takes less than a month, training only 2 weeks."
+      },
+      {
+        "title": "Legal Support",
+        "text": "Help with business registration, financial project support, transparent contract."
+      },
+      {
+        "title": "Technical Support",
+        "text": "Call center available 24/7 for any issues."
+      },
+      {
+        "title": "Warranty Certificate",
+        "text": "If you don't reach break-even, we will buy back your terminals!"
+      },
+      {
+        "title": "We Give You the Best",
+        "text": "We share experience and contacts of network partners."
+      }
+    ]
+  },
+  "s3": {
+    "title": "Business Monetization Options",
+    "items": [
+      {
+        "title": "Income from Sharing Power Bank",
+        "text": "User rents a power bank and pays per minute while charging their device."
+      },
+      {
+        "title": "Income from Advertising on Power Banks",
+        "text": "Businesses need brand awareness, and with many users, we can place ads on power banks."
+      },
+      {
+        "title": "Income from Advertising on Screens",
+        "text": "With stations that have ad screens, you can earn extra from advertisers."
+      }
+    ]
+  },
+  "s4": {
+    "title": "How Much Can You Earn?",
+    "count": "units",
+    "l": {
+      "title": "One-Time Expenses",
+      "text_1": "Number of Stations",
+      "text_2": "Number of Stands per Station"
+    },
+    "r": {
+      "title": "Monthly Expenses",
+      "text_1": "Internet Traffic",
+      "text_2": "Business Vehicle",
+      "text_3": "Worker for Repositioning Chargers"
+    },
+    "total": {
+      "opVal": "Operating Profit:",
+      "ras": "Monthly Expenses:",
+      "val": "Profit:",
+      "rasH": "One-Time Expenses:"
+    }
+  },
+  "sfc": "Select franchise configuration",
+  "form": {
+    "title_1": "Get a Consultation",
+    "text": [
+      "You don’t need any experience or special knowledge",
+      "We provide complete business support"
+    ],
+    "btnHelp": "Request Help",
+    "question": "Your Question",
+    "subtitle": "To connect with a personal manager",
+    "title_2": "Fill Out the Form",
+    "name": "How should we address you?",
+    "phone": "Phone",
+    "city": "City where you would like to open a franchise",
+    "city2": "City where you are located",
+    "cbx": "I want the manager to contact me today",
+    "ps": "By clicking the button, you agree to the terms of data processing and privacy policy",
+    "btn": "Become a Partner",
+    "loading": "Loading...",
+    "successMessage": "Successfully sent!",
+    "errorMessage": "Error in sending"
+  },
+  "partner": {
+    "title": "How to Become a Partner?",
+    "card_title_1": "Get a Free Consultation",
+    "card_text_1": "Our team will guide you at every stage. You will learn the pros and cons and get all the necessary information to become part of a successful franchise network.",
+    "card_title_2": "Sign the Contract",
+    "card_text_2": "We will draft a transparent contract, help you register a business, and consult on all legal and technical matters.",
+    "card_title_3": "Pay for Equipment",
+    "card_text_3": "Our high-quality equipment specifications can be found in our catalog.",
+    "card_title_4": "Get a Detailed Plan",
+    "card_text_4": "We provide complete business training. Our program covers key aspects from management and accounting to marketing and sales.",
+    "card_title_5": "Install the Stations",
+    "card_text_5": "We’ll consult on the best locations in your city for maximum revenue.",
+    "card_title_6": "Start Earning",
+    "card_text_6": "It’s simple with us!"
+  },
+  "glob": {
+    "title": "We are an International Company",
+    "text": "Our main offices are in China and Singapore."
+  },
+  "banner": {
+    "title": "Choose Your Franchise Configuration",
+    "btn": "Go to Equipment"
+  },
+  "info": [
+    {
+      "title": "300,000",
+      "downText": "users"
+    },
+    {
+      "title": "300,000",
+      "downText": "app downloads"
+    },
+    {
+      "title": "2000",
+      "upText": "over",
+      "downText": "terminals"
+    },
+    {
+      "title": "60%",
+      "downText": "NPS"
+    },
+    {
+      "title": "50",
+      "downText": "team members"
+    },
+    {
+      "title": "35",
+      "downText": "cities in Russia"
+    },
+    {
+      "title": "5",
+      "downText": "countries"
+    },
+    {
+      "title": "4",
+      "downText": "apps"
+    }
+  ],
+  "network": {
+    "title": "Network Expansion",
+    "items": [
+      {
+        "title": "2019",
+        "text": "Started developing our own software"
+      },
+      {
+        "title": "2021",
+        "text": "Launched, opened 2 cities"
+      },
+      {
+        "title": "2023",
+        "text": "4 countries and thousands of stations"
+      },
+      {
+        "title": "2024",
+        "image": "/smLog.png",
+        "text": "5 countries, thousands of stations, offices in Russia, China, Singapore"
+      }
+    ]
+  },
+  "banner3": {
+    "title": "Manage Your Business Remotely",
+    "text": "All operations are done through electronic services."
+  },
+  "banner4": {
+    "title": "We Provide <1>a Guarantee</1>",
+    "text": "If you don’t break even within a year, <1>we’ll refund your money</1>"
+  },
+  "needHep": "Need help?",
+  "Equipment": "Equipment",
+  "Privacy Policy": "Privacy Policy",
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "title": "How many stations can I start with?",
+        "answer": "The number of equipment directly depends on your income; we recommend starting with at least 20 units or more."
+      },
+      {
+        "title": "What do you assist with?",
+        "answer": "The number of equipment directly depends on your income; we recommend starting with at least 20 units or more."
+      },
+      {
+        "title": "Does this business really work?",
+        "answer": "The number of equipment directly depends on your income; we recommend starting with at least 20 units or more."
+      },
+      {
+        "title": "Is there protection against vandals?",
+        "answer": "The number of equipment directly depends on your income; we recommend starting with at least 20 units or more."
+      },
+      {
+        "title": "What if a person doesn't return the POWER BANK?",
+        "answer": "The number of equipment directly depends on your income; we recommend starting with at least 20 units or more."
+      },
+      {
+        "title": "Which cities are more profitable to enter?",
+        "answer": "The number of equipment directly depends on your income; we recommend starting with at least 20 units or more."
+      },
+      {
+        "title": "What is the payback percentage of the franchise?",
+        "answer": "The number of equipment directly depends on your income; we recommend starting with at least 20 units or more."
+      }
+    ]
+
+  },
+  "docs": {
+    "title": "We Provide Legal Support for Our Future Partners",
+    "tags_l": [
+      "We help register individuals as sole proprietors.",
+      "We assist in project financing: preferential loans, funds.",
+      "Payment installments available."
+    ],
+    "tags_r": [
+      "If you don't break even, we’ll buy back your terminals!",
+      "Completely transparent contract.",
+      "We are interested in the growth of our partners!"
+    ]
+  },
+  "app": {
+    "title": "Mobile App",
+    "subtitle": "We’ve used all our experience to create the most user-friendly app.",
+    "texts": [
+      "Station search on the map",
+      "Search by nearby venues",
+      "Loyalty system and promo codes",
+      "Support history"
+    ]
+  },
+  "validation": {
+    "name": "Name is required, minimum 2 characters",
+    "city": "City is required",
+    "question": "Question is required",
+    "phone": "Phone number is required"
+  },
+  "footer": {
+    "desc": "Start earning on hourly power bank rentals",
+    "title_1": "Popular Links",
+    "title_2": "Contacts",
+    "address": "Krasnogorsk, 1st Volokolamsky proezd, house 10, building 1",
+    "copy": "© All rights reserved.",
+    "policy": "Privacy Policy",
+    "links": [
+      {
+        "title": "Prices",
+        "link": "/prices"
+      },
+      {
+        "title": "App",
+        "link": "/app"
+      },
+      {
+        "title": "Reviews",
+        "link": "/reviews"
+      }
+    ]
+  }
+}

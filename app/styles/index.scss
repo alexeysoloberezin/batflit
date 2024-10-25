@@ -1,0 +1,191 @@
+@import "_theme_custom";
+@import "fonts";
+
+body, *{
+  font-family: 'Qanelas', sans-serif;
+}
+
+h1{
+  @apply xl:text-[48px] lg:text-[42px] text-[30px] font-bold ;
+}
+h2{
+  @apply xl:text-[48px] lg:text-[42px] text-[30px] font-bold ;
+}
+.horizontal-slider{
+  width: 100%;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.example-thumb{
+  border-radius: 10px;
+}
+.example-track-0{
+  background: linear-gradient(90deg, #D8D6A5 0%, #AAA768 37%, #2B2B2B 140%);
+  height: 10px;
+  border-radius: 10px;
+  opacity: 0.75;
+}
+.example-track-1{
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.btn{
+  @apply sm:py-[19px] py-[17px] sm:px-[50px] px-[20px] sm:text-[20px] text-[18px] bg-main-gradient justify-center items-center inline-flex sm:w-fit w-full text-dark font-bold rounded-[6px] gap-[12px];
+}
+.custom-dash {
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 1rem; /* match rounded-xl */
+  border-color: #fff; /* or use the Tailwind gray color */
+  opacity: .25;
+  @apply absolute lg:inset-[16px] inset-[6px]   rounded-xl pointer-events-none;
+}
+
+
+.main-slider{
+  width: 100%;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.gold-slider{
+  width: 100%;
+  height: 10px;
+  background: rgba(255,255,255, 0.25);
+  border-radius: 10px;
+}
+.green-track-0{
+  background: linear-gradient(to bottom right, #66E3B8, #22AD7D);
+  height: 10px;
+  border-radius: 10px;
+}
+.gold-track-0{
+  background: linear-gradient(to bottom right, #FFE973, #FFC226);
+  height: 10px;
+  border-radius: 10px;
+}
+.main-track-1{
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.animate-myPulse{
+  opacity: 0;
+
+  @keyframes myPulse {
+    0%, 100%{
+      opacity: 0;
+    }
+    30%, 70%{
+      opacity: 1;
+    }
+  }
+  animation: myPulse 2.6s ease infinite;
+
+  &:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+
+  &:nth-child(2) {
+    animation-delay: 1s;
+  }
+
+  &:nth-child(3) {
+    animation-delay: 2s;
+  }
+
+  &:nth-child(4) {
+    animation-delay: 3s;
+  }
+
+  &:nth-child(5) {
+    animation-delay: 4s;
+  }
+
+  &:nth-child(6) {
+    animation-delay: 5s;
+  }
+  &:nth-child(7) {
+    animation-delay: 6s;
+  }
+}
+
+.iphone1{
+  @keyframes iphone {
+    0%,100%{
+      transform: rotate(10deg) translate(-50%,-50%);
+    }
+    30%, 70%{
+      transform: rotate(0deg) translate(-50%,-50%);
+    }
+
+  }
+  animation: iphone 4s infinite ease;
+  transform-origin: bottom right;
+}
+
+.circles{
+  position: absolute;
+  top: 50%;
+  width: 1000px;
+  height: 1000px;
+  pointer-events: none;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  @keyframes scaleAnimation {
+    0%, 100% {
+      transform: translate(-50%, -50%) scale(0.98);
+    }
+    50% {
+      transform: translate(-50%, -50%) scale(1.02);
+    }
+  }
+
+  @mixin opacityAnimation($start-opacity, $end-opacity) {
+    @keyframes opacityAnimation {
+      0%, 100% {
+        opacity: $start-opacity;
+      }
+      50% {
+        opacity: $end-opacity;
+      }
+    }
+  }
+
+  span{
+    border-radius: 50%;
+    border: 5px solid var(--primary);
+    aspect-ratio: 1;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .circle {
+    &_1 {
+      width: 300px;
+      @include opacityAnimation(1, 0.8);
+      animation: scaleAnimation 1.7s infinite ease-in-out, opacityAnimation 1.7s infinite ease-in-out;
+    }
+    &_2 {
+      width: 450px;
+      @include opacityAnimation(0.6, 0.4);
+      animation-delay: .5s;
+      animation: scaleAnimation 2.2s infinite ease-in-out, opacityAnimation 2.2s infinite ease-in-out;
+    }
+    &_3 {
+      width: 650px;
+      @include opacityAnimation(0.3, 0.2);
+      animation-delay: 1s;
+      animation: scaleAnimation 3s infinite ease-in-out, opacityAnimation 3s infinite ease-in-out;
+    }
+    &_4 {
+      width: 800px;
+      @include opacityAnimation(0.1, 0);
+      animation-delay: 1.5s;
+      animation: scaleAnimation 4.1s infinite ease-in-out, opacityAnimation 4.1s infinite ease-in-out;
+    }
+  }
+}
