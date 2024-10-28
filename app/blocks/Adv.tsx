@@ -6,10 +6,10 @@ function AdvCard({title, text, index}: { title: string; text: string, index: num
   return (
     <div
       data-aos="fade-up"
+      className={"h-full"}
       data-aos-delay={300 + (index % 2 * 150)}
     >
       <div
-
         style={{transform: 'skewX(-10deg)'}}
         className="relative xl:rounded-[30px] rounded-[25px] bg-dark xl:py-[40px] py-[35px] flex items-center">
         <div className={'relative z-10 flex items-center text-white  xl:pl-[40px] pl-[20px] xl:pr-[50px] pr-[25px]'}

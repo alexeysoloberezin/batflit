@@ -7,7 +7,7 @@ import {useMyModal} from "../../hooks/modal";
 const CalculatorSlider = () => {
   const {t} = useTranslation();
   const [stations, setStations] = useState(4);
-  const costPerStation = 18500;
+  const costPerStation = 3800;
   const totalInvestment = stations * costPerStation;
   const {openModal} = useMyModal()
 
@@ -19,8 +19,8 @@ const CalculatorSlider = () => {
         thumbClassName="example-thumb"
         trackClassName="example-track"
         min={0}
-        max={10}
-        step={1}
+        max={400}
+        step={20}
         renderThumb={(props, state) => (
           <div {...props} className="custom-thumb outline-none translate-y-[-15px] translate-x-[4px] cursor-grab">
             {/* Кастомная иконка */}
@@ -39,8 +39,9 @@ const CalculatorSlider = () => {
               className={"xl:text-[48px] lg:text-[38px] text-[30px] font-bold"}>{(totalInvestment).toLocaleString()}₽</span>
             <span className={"xl:text-[24px] text-[20px]"}>/мес</span>
           </p>
-          <p className="xl:text-[24px] text-[20px] opacity-50 font-medium">{(totalInvestment * 5).toLocaleString()}₽
-            вложено</p>
+          <p className="xl:text-[24px] text-[20px] opacity-50 font-medium">
+            {stations} {t('stations')}
+          </p>
         </div>
         <button
           onClick={openModal}

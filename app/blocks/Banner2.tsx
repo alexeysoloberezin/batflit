@@ -2,6 +2,7 @@ import React from 'react';
 import {useTranslation} from "react-i18next";
 import useMediaQuery from "../hooks/useMediaQueary";
 import clsx from "clsx";
+import WrapperOpenModal from "../components/WrapperOpenModal";
 
 function Banner(props) {
   const {t} = useTranslation();
@@ -9,10 +10,12 @@ function Banner(props) {
 
   function Btn({classes}: {classes?: string}) {
     return (
-      <a data-aos={'fade-up'} data-aos-delay={'200'} href="#" className={clsx(["btn", classes])}>
-        {t('banner.btn')}
-        <img src="/icons/moln.svg" alt=""/>
-      </a>
+      <WrapperOpenModal>
+        <div data-aos={'fade-up'} data-aos-delay={'200'} className={clsx(["btn", classes])}>
+          {t('banner.btn')}
+          <img src="/icons/moln.svg" alt=""/>
+        </div>
+      </WrapperOpenModal>
     )
   }
 

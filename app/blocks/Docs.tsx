@@ -2,6 +2,7 @@ import React from 'react';
 import {useTranslation} from "react-i18next";
 import IconCIrcleBig from "../components/Icons/IconCIrcleBig";
 import clsx from "clsx";
+import WrapperOpenModal from "../components/WrapperOpenModal";
 
 function DocsItem({text, isRight, index}){
   return (
@@ -44,12 +45,15 @@ function Docs(props) {
               ))}
             </div>
 
-            <div data-aos={'fade-up'} className={"flex flex-col items-center"}>
-              <img src="/doc.png"  className={"lg:w-fit w-[190px]"} alt=""/>
-              <div className="btn mt-[-30px] lg:!w-full lg:!text-[18px] !text-[14px] !w-[224px] lg:!h-[78px] !h-[50px]">
-                Посмотреть договор
+            <WrapperOpenModal>
+              <div data-aos={'fade-up'} className={"flex flex-col items-center"}>
+                <img src="/doc.png" className={"lg:w-fit w-[190px]"} alt=""/>
+                <div
+                  className="btn mt-[-30px] lg:!w-full lg:!text-[18px] !text-[14px] !w-[224px] lg:!h-[78px] !h-[50px]">
+                  {t('View the contract')}
+                </div>
               </div>
-            </div>
+            </WrapperOpenModal>
 
             <div className={"space-y-[50px]"}>
               {Array.isArray(items_r) && items_r.map((el, i) => (

@@ -7,6 +7,13 @@ function InfoCards(props) {
 
   const items = t('info', {returnObjects: true});
 
+  const date = new Date('2024-10-26');
+  const currentDate = new Date();
+
+  const differenceInTime = currentDate.getTime() - date.getTime(); // Теперь тип number, ошибка исправлена
+
+  const differenceInDays = Math.floor(differenceInTime / (1000 * 60 * 60 * 24));
+
   const classes = [
     "lg:col-span-4 md:col-span-4 col-span-6",
     "lg:col-span-3 md:col-span-4 col-span-6",
@@ -23,7 +30,11 @@ function InfoCards(props) {
       {Array.isArray(items) && items.length > 0 && items.map((el, i) => (
         <div key={i} data-aos={'fade-up'} data-aos-delay={i * 50} className={clsx("bg-main-gradient text-dark flex flex-col md:mb-0 mb-[-15px] text-[18px] gap-[3px] justify-end lg:min-h-[275px] lg:p-[25px] pt-[30px] px-[20px] pb-[40px] lg:rounded-[20px] rounded-[10px]", classes[i])}>
           <div className={"lg:text-[18px] text-[16px]"}>{el.upText}</div>
-          <div className={"lg:text-[42px] md:text-[36px] text-[30px] font-bold"}>{el.title}</div>
+          <div className={"lg:text-[42px] md:text-[36px] text-[30px] font-bold"}>{
+            (i === 0 || i === 1)
+              ? <div>{(30000 + differenceInDays * 50).toLocaleString('en-EN')}</div>
+              : <div>{el.title}</div>
+          }</div>
           <div className={"lg:text-[18px] text-[16px]"}>{el.downText}</div>
         </div>
       ))}

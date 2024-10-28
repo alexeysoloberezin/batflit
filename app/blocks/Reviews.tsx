@@ -5,6 +5,7 @@ import 'swiper/css/navigation';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import {Navigation} from 'swiper/modules';
 import IconPhoto from "../components/Icons/IconPhoto";
+import WrapperOpenModal from "../components/WrapperOpenModal";
 
 function Call() {
   return (
@@ -80,9 +81,11 @@ function Reviews(props) {
                   </div>
                   <div className="md:text-[18px] text-[16px] my-[25px] leading-tight">{item.text}</div>
                   <div className="flex gap-[10px]">
-                    <button className="btn">
-                      {t('reviews.button')}
-                    </button>
+                    <WrapperOpenModal classes={"w-fit"}>
+                      <button className="btn">
+                        {t('reviews.button')}
+                      </button>
+                    </WrapperOpenModal>
                     <a href={`tel:${item.phone}`} className="">
                       <Call/>
                     </a>

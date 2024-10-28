@@ -6,6 +6,7 @@ import HeaderSecond from "../components/header/HeaderSecond";
 import CatalogCard from "../components/CatalogCard";
 import clsx from "clsx";
 import {useTranslation} from "react-i18next";
+import WrapperOpenModal from "../components/WrapperOpenModal";
 
 const catalogData = [
   {
@@ -156,11 +157,11 @@ const catalogData = [
     image: "/catalog/catalog_21.png"
   },
   {
-    id: '21',
-    name: "Станция 24 ячейки",
+    id: '22',
+    name: "Уличная станция 24 ячейки",
     price: 170000,
     value: 0,
-    image: "/catalog/catalog_21.png"
+    image: "/catalog/catalog_22.png"
   },
 ]
 
@@ -203,10 +204,12 @@ function Page(props) {
         </div>
 
         <div className={"md:mt-[72px] mt-[60px] md:grid flex gap-[30px] flex-col-reverse md:grid-cols-2 items-center"}>
-          <a href="#" className={clsx("btn !w-full")}>
-            {t('form.btn')}
-            <img src="/icons/moln.svg" alt=""/>
-          </a>
+          <WrapperOpenModal>
+            <div className={clsx("btn !w-full")}>
+              {t('form.btn')}
+              <img src="/icons/moln.svg" alt=""/>
+            </div>
+          </WrapperOpenModal>
           <div className="flex justify-end">
             <div className={"text-[48px] font-bold  text-black ml-auto"}>{total}₽</div>
           </div>
