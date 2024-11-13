@@ -11,7 +11,7 @@ function AdvCard({title, text, index}: { title: string; text: string, index: num
     >
       <div
         style={{transform: 'skewX(-10deg)'}}
-        className="relative xl:rounded-[30px] rounded-[25px] bg-dark xl:py-[40px] py-[35px] flex items-center">
+        className="relative xl:rounded-[30px] h-full rounded-[25px] bg-dark xl:py-[40px] py-[35px] flex items-center">
         <div className={'relative z-10 flex items-center text-white  xl:pl-[40px] pl-[20px] xl:pr-[50px] pr-[25px]'}
              style={{transform: 'skewX(10deg)'}}>
           <div className={"relative xl:w-[70px] w-[45px] xl:h-[70px] h-[50px] shrink-0"}>

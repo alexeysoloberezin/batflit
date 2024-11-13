@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "caniuse-lite": "^1.0.30001680",
     "clsx": "^2.1.1",
     "i18next": "^23.7.6",
     "next": "^14.0.3-canary.5",
@@ -40,3 +41,4 @@
     "typescript": "^5"
   }
 }
+
