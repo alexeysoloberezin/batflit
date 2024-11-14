@@ -128,7 +128,7 @@ function NeedHelp(props) {
       })}>
       <div   onClick={() => {
         setIsOpen(!isOpen)
-      }} className={'lg:flex  items-center pt-2 w-full gap-[10px] cursor-pointer'}>
+      }} className={'flex  items-center pt-2 w-full gap-[10px] cursor-pointer'}>
         <div
           className={"w-[36px] h-[36px] group-hover:bg-[#2B2B2B] transition-all shrink-0 relative bg-[#212121] rounded-full"}>
           <img src="/rev.png"
