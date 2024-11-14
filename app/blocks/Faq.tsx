@@ -2,14 +2,16 @@ import React, {useEffect, useRef, useState} from 'react';
 import {useTranslation} from 'react-i18next';
 import clsx from "clsx";
 
-function Faq() {
+function Faq({takeFrom = 'faq', titleBlack = false}: {takeFrom?: string, titleBlack?: boolean}) {
   const {t} = useTranslation();
-  const items = t('faq.items', {returnObjects: true});
+  const items = t(takeFrom + '.items', {returnObjects: true});
 
   return (
-    <div className={"mt-[100px]"}>
+    <div className={"lg:mt-[100px]  mt-[50px]"}>
       <div className="container">
-        <h2 data-aos={'fade-up'} className={"mb-[30px] text-center"}>
+        <h2 data-aos={'fade-up'} className={clsx("mb-[30px] text-center", {
+          'text-black': titleBlack
+        })}>
           {t('faq.title')}
         </h2>
 

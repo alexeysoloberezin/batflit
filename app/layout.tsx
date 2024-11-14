@@ -58,7 +58,6 @@ export default function RootLayout({
             {children}
 
             {/*footer start*/}
-            <Footer/>
 
             <NeedHelp/>
             <FormModal onClose={closeModal} isOpen={isModalOpen}/>

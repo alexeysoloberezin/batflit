@@ -21,6 +21,22 @@
     "calc_ps": "Leave a request and get a free consultation from a <1>battflit</1> specialist",
     "t2_b": "in your city"
   },
+  "install": {
+    "title": "Place the station in your office, at <br class='lg:block hidden'/> an event, or in a venue <span class='tag'>Free<span>",
+    "in": {
+      "title": "Free Station Installation",
+      "text": "We are ready to help you attract more visitors interested in charging their phones. Reach a vast audience!",
+      "arrTxt": [
+        "Introduce a new service for your clients by placing the station in a prominent location and actively informing visitors about it.",
+        "Our service is visited by more than 10,000 people daily, who will definitely see your venue on the map. We can offer you the option to make the station free for your customers.",
+        "Payment, revenue, and expense statistics are available for monitoring in your personal account. Typically, the station pays for itself within six months. Additionally, there's an option to purchase the station, in which case we will share the profit."
+      ]
+    },
+    "cd_1": "Place the station in an office, at an event, or in a venue",
+    "cd_2": "Any station setup option for any location",
+    "cd_3": "FITS PERFECTLY <br/>There’s always a spot for it 😇"
+  },
+  "install_btn": "Set station",
   "stations": "stations",
   "View the contract": "View the contract",
   "s": {
@@ -146,6 +162,8 @@
     }
   },
   "sfc": "Select franchise configuration",
+  "sfc_txt": "Most popular products:",
+  "goToCatalog": "Go to equipment",
   "form": {
     "title_1": "Get a Consultation",
     "text": [

@@ -27,6 +27,7 @@ module.exports = {
       'white-gradient': 'linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%)',
       'main-gradient': 'linear-gradient(to bottom right, #FFE973, #FFC226)',
       'gray-gradient': 'linear-gradient(to bottom right, #2F2F2F, #776F64, #5A5348)',
+      'gray-2-gradient': 'linear-gradient(45deg, #212121 43%, #878787 100%)',
       'gray-gradient-2': 'linear-gradient(to bottom right, #22AD7D, #035035)',
       'main-gradient-green': 'linear-gradient(to bottom right, #66E3B8, #22AD7D)',
     },

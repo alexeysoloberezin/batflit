@@ -75,22 +75,22 @@ const Header = ({isSecond}) => {
             <div className={"flex xl:flex-row xl:py-0 py-[15px]  flex-col justify-center xl:grow-0 grow items-center xl:gap-[25px] gap-[30px]"}>
               <Link
                 onClick={() => setIsOpen(false)}
-                href={'#link_1'} scroll={true}
+                href={'/#link_1'} scroll={true}
                 className={mobLink}>{t('nav.link_1')}</Link>
-              <Link onClick={() => setIsOpen(false)} href={'#link_2'} scroll={true}
+              <Link onClick={() => setIsOpen(false)} href={'/#link_2'} scroll={true}
                     className={mobLink}>{t('nav.link_2')}</Link>
 
-              <Link onClick={() => setIsOpen(false)} href={'#link_3'} scroll={true}
+              <Link onClick={() => setIsOpen(false)} href={'/install'} scroll={true}
                     className={mobLink}>{t('nav.link_3')}</Link>
 
-              <Link  onClick={() => setIsOpen(false)} href={'#link_6'} scroll={true}
+              <Link  onClick={() => setIsOpen(false)} href={'/anyPlace'} scroll={true}
                     className={mobLink + ' xl:hidden'}>{t('nav.link_6')}</Link>
-              <Link  onClick={() => setIsOpen(false)} href={'#link_7'} scroll={true}
+              <Link  onClick={() => setIsOpen(false)} href={'/#link_7'} scroll={true}
                     className={mobLink + ' xl:hidden'}>{t('nav.link_7')}</Link>
 
-              <Link onClick={() => setIsOpen(false)} href={"#link_4"} scroll={true}
+              <Link onClick={() => setIsOpen(false)} href={"/#link_4"} scroll={true}
                     className={mobLink}>{t('nav.link_4')}</Link>
-              <Link onClick={() => setIsOpen(false)} href={'#link_5'} scroll={true}
+              <Link onClick={() => setIsOpen(false)} href={'/#link_5'} scroll={true}
                     className={clsx(mobLink)}>{t('nav.link_5')}</Link>
             </div>
             <a href="/catalog"

@@ -187,7 +187,18 @@ h2, .subtitle{
     transform: translateX(-50%);
     transition: 0.3s;
 }
-
+.tag{
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 12px;
+    padding: 0px 7px;
+    display: inline-block;
+    margin-top: 2px;
+    background: linear-gradient(60deg, #66E3B8, #22AD7D );
+}
+.text-green{
+    color:#22AD7D ;
+}
 .burger span:nth-child(1) {
     top: 50%;
     margin-top: -11px;

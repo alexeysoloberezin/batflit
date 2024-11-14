@@ -9,7 +9,7 @@ const Index = () => {
     <footer id={"link_4"} className={"bg-[#121212] text-white"}>
       <div className="">
         <div className="container">
-          <div className={"flex lg:flex-row flex-col items-center lg:justify-between pt-[45px] pb-[25px] lg:gap-[15px] gap-[30px]"}>
+          <div className={"flex lg:flex-row flex-col items-center lg:justify-between pt-[45px] pb-[60px] lg:gap-[15px] gap-[30px]"}>
             <div>
               <Logo/>
             </div>

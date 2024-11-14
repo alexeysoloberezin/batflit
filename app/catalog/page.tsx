@@ -7,6 +7,7 @@ import CatalogCard from "../components/CatalogCard";
 import clsx from "clsx";
 import {useTranslation} from "react-i18next";
 import WrapperOpenModal from "../components/WrapperOpenModal";
+import Footer from "../components/footer";
 
 const catalogData = [
   {
@@ -215,6 +216,9 @@ function Page(props) {
           </div>
         </div>
       </div>
+
+      <Footer/>
+
     </div>
   );
 }

@@ -18,6 +18,8 @@ import Banner4 from "./blocks/Banner4";
 import Docs from "./blocks/Docs";
 import FormSecond from "./blocks/Form_2";
 import Faq from "./blocks/Faq";
+import Footer from "./components/footer";
+import React from "react";
 
 export default function Home() {
   return (
@@ -59,6 +61,10 @@ export default function Home() {
           <Faq />
         </div>
       </div>
+
+
+      <Footer/>
+
     </main>
   );
 }
